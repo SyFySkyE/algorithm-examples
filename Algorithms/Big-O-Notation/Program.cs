@@ -14,10 +14,12 @@ namespace Big_O_Notation
         {
             while (true)
             {
-                steps++;
+                Console.Clear();
+                steps = 0;
+
                 Console.WriteLine("Big O Notation\n\n");
                 Console.WriteLine("Press 1 for the Constant Time example, 2 for Linear Time and 3 for Quadratic Time");
-                Console.WriteLine("As each algorithm runs, a counter will keep track of how many steps it takes for each one.");
+                Console.WriteLine("As each algorithm runs, a counter will keep track of how many steps it takes for each one. \nEach algorithm will receive an input of 10.");
                 Console.WriteLine("When the method is finished, I'll display how many steps it took.");                
 
                 switch (Console.ReadLine())
@@ -35,7 +37,7 @@ namespace Big_O_Notation
                         break;
                 }
 
-                Console.WriteLine($"This one took {steps} steps! Think how the number of steps relate to the amount of time and/or memory it took, and how different it would be given a large input size!");
+                Console.WriteLine($"This one took {steps} steps! \nThink how the number of steps relate to the amount of time and/or memory it took, and how different it would be given a large input size!");
 
                 Console.ReadLine();
             }
@@ -43,7 +45,8 @@ namespace Big_O_Notation
 
         private static void ConstantTime(int index)
         {
-
+            Console.WriteLine($"My favorite number is {index}");
+            steps++;
         }
 
         private static void LinearTime(int iterations)
@@ -57,17 +60,18 @@ namespace Big_O_Notation
 
         private static void QuadraticTime(int size)
         {
-            int columns = 0;
-            int rows = 0;
+            int columns, rows;
 
-            for (int i = columns; columns < size; columns++)
+            for (columns = 0; columns < size; columns++)
             {
-                for (int j = rows; rows < size; rows++)
+                for (rows = 0; rows < size; rows++)
                 {
-
+                    Console.Write($"X: {columns} Y: {rows}  ");
 
                     steps++;
                 }
+
+                Console.WriteLine();
             }
         }
     }

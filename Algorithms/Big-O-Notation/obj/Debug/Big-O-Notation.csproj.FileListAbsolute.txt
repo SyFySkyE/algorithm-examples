@@ -1,0 +1,7 @@
+D:\School Work\Algorithms\Repo\algorithm-examples\Algorithms\Big-O-Notation\bin\Debug\Big-O-Notation.exe.config
+D:\School Work\Algorithms\Repo\algorithm-examples\Algorithms\Big-O-Notation\bin\Debug\Big-O-Notation.exe
+D:\School Work\Algorithms\Repo\algorithm-examples\Algorithms\Big-O-Notation\bin\Debug\Big-O-Notation.pdb
+D:\School Work\Algorithms\Repo\algorithm-examples\Algorithms\Big-O-Notation\obj\Debug\Big-O-Notation.csprojAssemblyReference.cache
+D:\School Work\Algorithms\Repo\algorithm-examples\Algorithms\Big-O-Notation\obj\Debug\Big-O-Notation.csproj.CoreCompileInputs.cache
+D:\School Work\Algorithms\Repo\algorithm-examples\Algorithms\Big-O-Notation\obj\Debug\Big-O-Notation.exe
+D:\School Work\Algorithms\Repo\algorithm-examples\Algorithms\Big-O-Notation\obj\Debug\Big-O-Notation.pdb
