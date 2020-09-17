@@ -47,6 +47,8 @@ namespace Big_O_Notation
         {
             Console.WriteLine($"My favorite number is {index}");
             steps++;
+
+            // No matter how big the input is, whether it's 1 or 1,000,000 the number of steps will always be the same. The size of the input does not change the length of time or the memory it takes to run this method. The time and memory it will take is constant, or O(1).
         }
 
         private static void LinearTime(int iterations)
@@ -56,6 +58,8 @@ namespace Big_O_Notation
                 Console.WriteLine(i);
                 steps++;
             }
+
+            // In this example, the input size does effect the length of time it will take to run. In fact, it scales linearly depending on what the input is. If the input is 1, it will run one time. If it is 1,000,000 it will run a million times. Since the runtime depends on the size of the input, or n, therefore, the runtime is O(n).
         }
 
         private static void QuadraticTime(int size)
@@ -72,6 +76,8 @@ namespace Big_O_Notation
                 }
 
                 Console.WriteLine();
+
+                // In this example, the input size does effects the runtime greatly. Since the size of the input is run in a nested for loop, the runtime will rise exponentially, or O(n^2).
             }
         }
     }
